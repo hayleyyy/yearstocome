@@ -3,6 +3,8 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import useBreakpoint from "./UseBreakpoint";
+import venueImgMobile from "./assets/venue-images-mobile.png";
+import venueImg from "./assets/venue-images.png";
 
 function Venue() {
   const breakpoint = useBreakpoint();
@@ -29,14 +31,8 @@ function Venue() {
               className="venue-photo-container order-md-2"
             >
               <div>
-                <img
-                  src="/assets/img/venue-images.png"
-                  className="venue-photo"
-                ></img>
-                <img
-                  src="/assets/img/venue-images-mobile.png"
-                  className="venue-photo-mobile"
-                ></img>
+                <img src={venueImg} className="venue-photo"></img>
+                <img src={venueImgMobile} className="venue-photo-mobile"></img>
               </div>
             </Col>
             <Col md={10} lg={8} xl={7} className="venue-text p-5 ">

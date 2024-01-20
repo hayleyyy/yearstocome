@@ -16,7 +16,7 @@ body {
 /* -- HEADER -- */
 .header-bg-1 {
   height: 120vh;
-  background-image: url("./assets/img/header-bg-1.png");
+  background-image: url("./assets/header-bg-1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
@@ -25,7 +25,7 @@ body {
 
 .header-bg-2 {
   height: 120vh;
-  background-image: url("./assets/img/header-bg-2.png");
+  background-image: url("./assets/header-bg-2.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
@@ -34,7 +34,7 @@ body {
 
 .header-bg-3 {
   height: 120vh;
-  background-image: url("./assets/img/header-bg-3.png");
+  background-image: url("./assets/header-bg-3.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
@@ -43,7 +43,7 @@ body {
 
 .header-bg-4 {
   height: 120vh;
-  background-image: url("./assets/img/header-2400x1600.jpg");
+  background-image: url("./assets/header-2400x1600.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
@@ -59,7 +59,7 @@ body {
 
 /* -- INTRO -- */
 .section-intro {
-  background-image: url("./assets/img/paper-bg.jpg");
+  background-image: url("./assets/paper-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
@@ -81,14 +81,14 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 .section-intro .intro-photo img {
   max-width: 100%;
 }
 .section-intro .intro-text {
-  background-image: url("./assets/img/floral-decal.png");
+  background-image: url("./assets/floral-decal.png");
   background-repeat: no-repeat;
   background-size: 60%;
   background-position: center bottom;
@@ -107,7 +107,7 @@ font-family: 'Satisfy', cursive;
 font-family: 'Square Peg', cursive;
 font-family: 'Style Script', cursive; */
 .section-story {
-  background-image: url("./assets/img/book-bg-empty.jpg");
+  background-image: url("./assets/book-bg-empty.jpg");
   padding-top: 100px;
   padding-bottom: 100px;
   background-size: cover;
@@ -123,8 +123,8 @@ font-family: 'Style Script', cursive; */
 
 .book-bg {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  background-image: url("./assets/img/book-background-smooth.png");
+  box-sizing: border-box;
+  background-image: url("./assets/book-background-smooth.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -133,7 +133,7 @@ font-family: 'Style Script', cursive; */
 }
 @media (max-width: 768px) {
   .book-bg {
-    background-image: url("./assets/img/book-background-smooth-mobile.png");
+    background-image: url("./assets/book-background-smooth-mobile.png");
   }
 }
 
@@ -152,11 +152,13 @@ font-family: 'Style Script', cursive; */
 .book-page p {
   text-align: justify;
 }
-.book-page:nth-child(even), .book-page:nth-child(odd) {
-  background-image: url("./assets/img/page-right.png");
+.book-page:nth-child(even),
+.book-page:nth-child(odd) {
+  background-image: url("./assets/page-right.png");
   background-position: top right;
 }
-.book-page:nth-child(even) .book-page-content, .book-page:nth-child(odd) .book-page-content {
+.book-page:nth-child(even) .book-page-content,
+.book-page:nth-child(odd) .book-page-content {
   border: 1px solid pink;
   padding-left: 60px;
   padding-right: 70px;
@@ -164,11 +166,13 @@ font-family: 'Style Script', cursive; */
   height: 100%;
 }
 @media (min-width: 576px) {
-  .book-page:nth-child(even), .book-page:nth-child(odd) {
-    background-image: url("./assets/img/page-right.png");
+  .book-page:nth-child(even),
+  .book-page:nth-child(odd) {
+    background-image: url("./assets/page-right.png");
     background-position: top right;
   }
-  .book-page:nth-child(even) .book-page-content, .book-page:nth-child(odd) .book-page-content {
+  .book-page:nth-child(even) .book-page-content,
+  .book-page:nth-child(odd) .book-page-content {
     border: 1px solid green;
     padding-left: 70px;
     padding-right: 80px;
@@ -177,7 +181,7 @@ font-family: 'Style Script', cursive; */
 }
 @media (min-width: 768px) {
   .book-page:nth-child(even) {
-    background-image: url("./assets/img/page-left.png");
+    background-image: url("./assets/page-left.png");
     background-position: top right;
   }
   .book-page:nth-child(even) .book-page-content {
@@ -187,7 +191,7 @@ font-family: 'Style Script', cursive; */
     padding-top: 65px;
   }
   .book-page:nth-child(odd) {
-    background-image: url("./assets/img/page-right.png");
+    background-image: url("./assets/page-right.png");
     background-position: top left;
   }
   .book-page:nth-child(odd) .book-page-content {
@@ -227,14 +231,14 @@ font-family: 'Style Script', cursive; */
 }
 
 .section-venue {
-  background-image: url("./assets/img/torn-paper-bg.jpg");
+  background-image: url("./assets/torn-paper-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom;
   font-family: "Literata", serif;
 }
 .section-venue .venue-text {
-  background-image: url("./assets/img/paper-bg.jpg");
+  background-image: url("./assets/paper-bg.jpg");
 }
 @media (max-width: 768px) {
   .section-venue .venue-text {
@@ -322,7 +326,7 @@ font-family: 'Style Script', cursive; */
   width: 100%;
   min-width: 100%;
   margin-top: -50px;
-  background-image: url("./assets/img/torn-paper-edge.png");
+  background-image: url("./assets/torn-paper-edge.png");
   background-position: top;
   background-repeat: repeat-x;
   background-size: cover;
@@ -337,7 +341,7 @@ font-family: 'Style Script', cursive; */
 
 .section-menu {
   margin-top: -50px;
-  background-image: url("./assets/img/menu-board.jpg");
+  background-image: url("./assets/menu-board.jpg");
   background-size: cover;
   background-position: top center;
   min-height: 1000px;
@@ -358,7 +362,7 @@ font-family: 'Style Script', cursive; */
 }
 
 .clipboard-paper {
-  background-image: url("./assets/img/pine-bg.jpg");
+  background-image: url("./assets/pine-bg.jpg");
   background-size: 200%;
   min-height: 600px;
   border-radius: 5px;
@@ -369,7 +373,7 @@ font-family: 'Style Script', cursive; */
 }
 
 .clipboard-menu {
-  background-image: url("./assets/img/green-paper.jpg");
+  background-image: url("./assets/green-paper.jpg");
   border: 2px solid #676250;
   height: 100%;
   min-height: 100%;
@@ -416,24 +420,24 @@ font-family: 'Style Script', cursive; */
 }
 
 #img1 {
-  background-image: url("./assets/img/intro-photo.png");
+  background-image: url("./assets/intro-photo.png");
   opacity: 0.8;
   min-height: 500px;
 }
 
 #img2 {
-  background-image: url("./assets/img/menu-board.jpg");
+  background-image: url("./assets/menu-board.jpg");
   min-height: 900px;
   width: 500px;
 }
 
 #img3 {
-  background-image: url("./assets/img/floral-decal.png");
+  background-image: url("./assets/floral-decal.png");
   min-height: 500px;
 }
 
 #img4 {
-  background-image: url("./assets/img/clip.png");
+  background-image: url("./assets/clip.png");
   min-height: 900px;
   width: 500px;
 }

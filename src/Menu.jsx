@@ -2,12 +2,13 @@ import React, { useRef } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import clipboard from "./assets/clip-sm.png";
 
 function Menu() {
   return (
     <>
       <Container className="section-menu" fluid>
-        <img src="/assets/img/clip-sm.png" className="clipboard-clip"></img>
+        <img src={clipboard} className="clipboard-clip"></img>
 
         <Container className="clipboard-container">
           <Row className="justify-content-center">

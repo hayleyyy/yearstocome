@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import { ParallaxBanner, ParallaxBannerLayer } from "react-scroll-parallax";
+import logo from "./assets/logo.png";
 
 function Header() {
   return (
@@ -19,7 +20,7 @@ function Header() {
           <div className="w-100 full-height header-bg-2"></div>
         </ParallaxBannerLayer>
         <ParallaxBannerLayer speed={-35}>
-          <img src="/assets/img/logo.png" className="header-logo" />
+          <img src={logo} className="header-logo" />
         </ParallaxBannerLayer>
         <ParallaxBannerLayer speed={15}>
           <div className="w-100 full-height header-bg-1"></div>

@@ -2,6 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import introPhoto from "./assets/intro-photo.png";
 
 function Intro() {
   return (
@@ -23,7 +24,7 @@ function Intro() {
               </div>
             </Col>
             <Col md={5} className="border intro-photo p-4 p-md-0 p-lg-3 p-xl-5">
-              <img src="/assets/img/intro-photo.png"></img>
+              <img src={introPhoto}></img>
             </Col>
           </Row>
         </Container>
