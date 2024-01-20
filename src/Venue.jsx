@@ -30,11 +30,11 @@ function Venue() {
             >
               <div>
                 <img
-                  src="../src/assets/img/venue-images.png"
+                  src="/assets/img/venue-images.png"
                   className="venue-photo"
                 ></img>
                 <img
-                  src="../src/assets/img/venue-images-mobile.png"
+                  src="/assets/img/venue-images-mobile.png"
                   className="venue-photo-mobile"
                 ></img>
               </div>

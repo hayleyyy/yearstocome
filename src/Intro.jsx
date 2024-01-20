@@ -23,7 +23,7 @@ function Intro() {
               </div>
             </Col>
             <Col md={5} className="border intro-photo p-4 p-md-0 p-lg-3 p-xl-5">
-              <img src="../src/assets/img/intro-photo.png"></img>
+              <img src="/assets/img/intro-photo.png"></img>
             </Col>
           </Row>
         </Container>

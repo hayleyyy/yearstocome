@@ -19,7 +19,7 @@ function Header() {
           <div className="w-100 full-height header-bg-2"></div>
         </ParallaxBannerLayer>
         <ParallaxBannerLayer speed={-35}>
-          <img src="../src/assets/img/logo.png" className="header-logo" />
+          <img src="/assets/img/logo.png" className="header-logo" />
         </ParallaxBannerLayer>
         <ParallaxBannerLayer speed={15}>
           <div className="w-100 full-height header-bg-1"></div>

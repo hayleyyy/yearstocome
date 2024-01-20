@@ -7,10 +7,7 @@ function Menu() {
   return (
     <>
       <Container className="section-menu" fluid>
-        <img
-          src="../src/assets/img/clip-sm.png"
-          className="clipboard-clip"
-        ></img>
+        <img src="/assets/img/clip-sm.png" className="clipboard-clip"></img>
 
         <Container className="clipboard-container">
           <Row className="justify-content-center">
