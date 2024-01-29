@@ -9,7 +9,7 @@ import venueImg from "./assets/venue-images.png";
 function Venue() {
   const breakpoint = useBreakpoint();
   const mapWidthSizes = {
-    xs: 360,
+    xs: 320,
     sm: 442,
     md: 504,
     lg: 544,
@@ -35,17 +35,13 @@ function Venue() {
                 <img src={venueImgMobile} className="venue-photo-mobile"></img>
               </div>
             </Col>
-            <Col md={10} lg={8} xl={7} className="venue-text p-5 ">
+            <Col md={10} lg={8} xl={7} className="venue-text">
               <div className="venue-text-upper">
                 <h1 className="venue-title">Venue</h1>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                  malesuada pretium interdum. Nulla rhoncus eleifend est non
-                  dapibus. Fusce vitae vulputate enim, ut sagittis lacus.
-                  Phasellus efficitur lorem sed lorem lacinia consequat.
-                  Curabitur bibendum ut nisl congue malesuada. Ut purus enim,
-                  posuere fringilla nunc sit amet, bibendum parturient montes,
-                  nascetur ridiculus mus. {mapWidth}
+                <p className="venue-description">
+                  "Nestled in the gateway of the picturesque Annapolis Valley
+                  just 45 minutes from Halifax, The Barn at Sadie Belle Farm
+                  will capture your heart and imagination."
                 </p>
                 <h5>The Barn at Sadie Belle Farm</h5>
                 <p>
@@ -54,7 +50,7 @@ function Venue() {
                   <span className="venue-address">(902) 809-2359</span>
                 </p>
               </div>
-              <div className="venue-map border">
+              <div className="venue-map">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d87413.00580062682!2d-64.2905018096398!3d45.043349601202394!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b59abf901c468c5%3A0x40e82a0b83889eea!2sThe%20Barn%20at%20Sadie%20Belle%20Farm!5e0!3m2!1sen!2sca!4v1703692195530!5m2!1sen!2sca"
                   width={mapWidth}

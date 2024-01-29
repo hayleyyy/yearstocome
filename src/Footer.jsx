@@ -17,7 +17,7 @@ function Footer() {
           </ParallaxLayer>
         </Parallax>
       </Container> */}
-      <div className="test-bg">
+      <div className="rsvp-footer">
         <ParallaxLayer offset={0} speed={0.5}>
           <div className="test-parallax parallax" id="img1"></div>
         </ParallaxLayer>

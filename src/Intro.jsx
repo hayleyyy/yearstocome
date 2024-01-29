@@ -10,8 +10,8 @@ function Intro() {
       <Container fluid className="section-intro">
         <Container className="py-5">
           <Row className="py-5">
-            <Col md={7} className="border intro-text p-4 p-sm-2 p-md-4 p-lg-5">
-              <div className="border">
+            <Col md={7} className="intro-text p-4 p-sm-2 p-md-4 p-lg-5">
+              <div>
                 <h1>We're getting married!</h1>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
                 malesuada pretium interdum. Nulla rhoncus eleifend est non
@@ -23,7 +23,7 @@ function Intro() {
                 vitae sem.
               </div>
             </Col>
-            <Col md={5} className="border intro-photo p-4 p-md-0 p-lg-3 p-xl-5">
+            <Col md={5} className="intro-photo p-4 p-md-0 p-lg-3 p-xl-5">
               <img src={introPhoto}></img>
             </Col>
           </Row>
