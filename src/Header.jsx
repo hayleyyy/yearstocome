@@ -6,7 +6,7 @@ import logo from "./assets/logo.png";
 function Header() {
   return (
     <>
-      <ParallaxBanner className="w-100 full-height section-header">
+      <ParallaxBanner className="w-100 full-height section-header" id="header">
         <ParallaxBannerLayer speed={-30}>
           <div className="w-100 full-height header-bg-5"></div>
         </ParallaxBannerLayer>

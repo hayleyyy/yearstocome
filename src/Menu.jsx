@@ -7,7 +7,7 @@ import clipboard from "./assets/clip-sm.png";
 function Menu() {
   return (
     <>
-      <Container className="section-menu" fluid>
+      <Container className="section-menu" fluid id="menu">
         <img src={clipboard} className="clipboard-clip"></img>
 
         <Container className="clipboard-container">

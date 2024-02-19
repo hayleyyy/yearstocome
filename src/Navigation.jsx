@@ -2,7 +2,7 @@ import { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 // docs: https://react-bootstrap.netlify.app/docs/components/navbar
 const Navigation = () => {
@@ -15,25 +15,25 @@ const Navigation = () => {
         className="nav-top ml-auto"
       >
         <Container>
-          <Navbar.Brand as={Link} to="/">
+          <Navbar.Brand as={Link} to="#header">
             Mahaney Years to Come
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link as={Link} to="/intro">
+              <Nav.Link as={Link} to="#intro">
                 Intro
               </Nav.Link>
-              <Nav.Link as={Link} to="/book">
+              <Nav.Link as={Link} to="#book">
                 Our Story
               </Nav.Link>
-              <Nav.Link as={Link} to="/venue">
+              <Nav.Link as={Link} to="#venue">
                 Venue
               </Nav.Link>
-              <Nav.Link as={Link} to="/menu">
+              <Nav.Link as={Link} to="#menu">
                 Menu
               </Nav.Link>
-              <Nav.Link as={Link} to="/footer">
+              <Nav.Link as={Link} to="#footer">
                 RSVP
               </Nav.Link>
             </Nav>

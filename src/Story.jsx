@@ -136,7 +136,7 @@ function MyBook(props) {
 function Story() {
   return (
     <>
-      <Container fluid className="section-story">
+      <Container fluid className="section-story" id="book">
         <h1 className="section-story-title">Our Story</h1>
         <Container fluid className="book-bg">
           <Container>

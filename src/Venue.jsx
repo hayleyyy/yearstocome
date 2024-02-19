@@ -21,7 +21,7 @@ function Venue() {
 
   return (
     <>
-      <Container fluid className="section-venue">
+      <Container fluid className="section-venue" id="venue">
         <Container className="py-5">
           <Row className="py-5">
             <Col
